@@ -2,16 +2,22 @@
 <html>
     <head>
         <title>Titulo</title>
+        <link rel="icon" type="image/png" href="/imagens/9828619.jpg">
         <style>
             div{
+                position: relative;
                 background-color: black;
                 color: yellow;
+                display: flex;
+                align-items: flex-start;
+    
 
             }
             ul{
                 list-style: none;
                 display: inline-block;
                 padding-left: 0;
+
             }
 
             li{
@@ -25,16 +31,33 @@
                 display: inline-block;
                 font-weight: bold;
                 text-decoration: none;
+                border-radius: 20%;
             }
-            h1{
+            a:hover{
+                background-color: yellow;
+                color: black;
+                border-radius: 20%;
+            }
+            img{
                 display: inline-block;
+                width: 100px;
+                height: 100%;
             }
+            .logo {
+                position: absolute;
+                right: 0;
+                display: flex;
+                width: 60px;
+                height: 100px;
+                justify-content: center;
+                align-items: end;
+}
         </style>
     </head>
     <body>
         <div>
             
-            <h1>Logo</h1>
+            <img src="../imagens/9828619.jpg" alt="Logo do site">
         <ul>
             <li>
             </li>
@@ -48,6 +71,8 @@
                 <a href="">Sapatos</a>
             </li>
         </ul>
+        
+        <img src="/imagens/icons8-login-96.png" alt="" class="logo">
         </div>
 
 
