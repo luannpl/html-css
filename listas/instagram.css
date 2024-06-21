@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-list{
+    padding: 50px;
+    list-style: none;
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, 500px);
+    justify-content: center;
+
+}
+.image-item img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.image-item .icons{
+    position: absolute;
+    display: none;
+}
+.image-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-item:hover .icons{
+    display: block;
+}
+.image-item i{
+    color: white;
+    font-size: 26px;
+}

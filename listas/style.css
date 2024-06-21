@@ -13,14 +13,14 @@ ul{
     background-color: #ccc;
     width: 200px;
     height: 150px;
-    border-top: 2px solid #333;
+    border-top: 4px solid #333;
     cursor: pointer;
     box-shadow: 2px 4px 5px 0 #bdbdbd;
     transition: 0.5s ease-in-out;
     background-image: url(https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png);
     background-repeat: no-repeat;
     background-position: center;
-
+    position: relative;
 }
 .course-list{
     display: flex;
@@ -31,7 +31,7 @@ ul{
     height: 100vh;
 }
 .course-item:first-child{
-    border-top: 2px solid #009681;
+    border-top: 4px solid #009681;
 
 }
 .course-item:first-child:hover{
@@ -42,4 +42,17 @@ ul{
     background-color: yellow;
     transform: translateY(-10px);
     /* transition: 0.5s ease-in-out; */
+}
+
+.course-item span{
+    background-color: #333;
+    color: #Fff;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    position: absolute;
+    top: -15px;
+    right: 5px;
+
 }
