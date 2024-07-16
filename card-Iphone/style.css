@@ -65,3 +65,8 @@ body{
     font-weight: bold;
     border-radius: 4px;
 }
+
+#product-list{
+    display: flex;
+    gap: 20px;
+}
